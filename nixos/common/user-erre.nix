@@ -2,7 +2,7 @@
 {
   users.users."erre" = {
     isNormalUser = true;
-    initialHashedPassword = "$y$j9T$I6MeqBGtpLepoMdQO3ccw0$zaA5hlZYCX/NQZlgURIa.ucaq4JKVrMcAa8jvUPSAo8";
+    initialPassword = "erre";
     extraGroups = ["wheel" "ssh-access"];
     packages = with pkgs; [helix];
     openssh.authorizedKeys.keys = [];
