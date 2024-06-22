@@ -9,6 +9,7 @@
 
   # Use systemd-networkd for networking (translate script-based networking)
   networking.useNetworkd = lib.mkDefault true;
+  systemd.network.enable = true;
 
   # Use resolved instead of resolvconf
   services.resolved.enable = lib.mkDefault true;
