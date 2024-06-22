@@ -1,6 +1,7 @@
 { config, pkgs, inputs, ... }:
 {
-  imports = with inputs.self.nixosModules; [
-    sshd
+  imports = [
+    ../common/sshd.nix
+    ../common/user-erre.nix
   ];
 }
