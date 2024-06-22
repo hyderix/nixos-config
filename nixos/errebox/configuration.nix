@@ -5,4 +5,6 @@
     ../common/user-erre.nix
     ../common/locale-se.nix
   ];
+
+  networking.hostName = "errebox";
 }
