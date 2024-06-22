@@ -7,4 +7,6 @@
   ];
 
   networking.hostName = "errebox";
+
+  system.stateVersion = "24.05";
 }
